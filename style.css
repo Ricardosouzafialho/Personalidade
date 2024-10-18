@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Santa Relax;
+    src: url(Santai\ Relax.ttf);
+}
+
+nav {
+    top: 0%;
+    width: 100%;
+    padding: 20px;
+    font-size: 23px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0% 65px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d60700;
+    transition: color 1.5s;
+    font-family: monospace;
+}
+
+.comeco {
+    text-align: center;
+    background-color: #000000;
+    padding: 30px 0;
+    font-size: 2.5em;
+    color: #e0f000;
+    font-family: Santa Relax;
+}
+
+.comeco p {
+    color: #ececec;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+#biografia {
+    background-color: #000000;
+    padding: 20px;
+    width: 60%;
+    margin: 10px;
+    text-align: justify;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 16em;
+}
+
+#biografia h2{
+    color: #d60700;
+    background-color: #000000;
+    margin-right: 40em;
+    padding: 10px;
+}
+
+figure{
+    display: inline-block;  
+    margin: 20px; 
+    text-align: center;  
+}
+
+.morgan img {
+    margin-left: 5em;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    height: 400px;
+    display: flex;
+}
+
+figcaption{
+    font-size: 18px;
+    margin-top: 9px;
+    margin-left: 4em;
+}
+
+#feitos h2 {
+    margin-left: 16em;
+    padding: 25px;
+    font-size: 30px;
+    color: #d60700;
+}
+
+#feitos p{
+    margin-left: 25em;
+    font-size: 20px;
+}
+
+.filme1 h2{
+    color: #d60700;
+    margin-left: 1.5em;   
+}
+
+.filme1 img{
+    margin-left: 2em;
+    border: 5px solid #000000;
+    height: 350px;
+}
+
+.filme3 h2{
+    color: #d60700;
+    margin-left: 1.5em;   
+}
+
+.filme3 img{
+    margin-left: 2em;
+    border: 5px solid #000000;
+    height: 350px;
+}
+
+.filme4 h2{
+    color: #d60700;
+    margin-left: 1.5em;   
+}
+.filme4 img{
+    margin-left: 2em;
+    border: 5px solid #000000;
+    height: 350px;
+}
+
+.filme5 h2{
+    color: #d60700;
+    margin-left: 1.5em;   
+}
+
+.filme5 img{
+    margin-left: 2em;
+    border: 5px solid #000000;
+    height: 350px;    
+}
+
+.parallax1{
+    background-image: url(https://forbes.com.br/wp-content/uploads/2023/09/Life_Morgan-Freeman-Festival-Liberatum.jpg);
+}
+.parallax2{
+    background-image: url(https://cdn.pixabay.com/photo/2020/05/23/17/58/hollywood-5210772_1280.jpg);
+}
+
+
+.parallax{
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width: 480px) {
+    nav ul {
+        margin-top: 20px;
+    }
+
+        
+#biografia{
+    margin-left: 10px;
+    width: 90%;
+}
+}
